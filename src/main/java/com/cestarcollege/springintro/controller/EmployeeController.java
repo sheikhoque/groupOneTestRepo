@@ -31,7 +31,7 @@ public class EmployeeController {
 		return employeeService.save(e);
 	}
     
-    @RequestMapping(value = "/delete", method = RequestMethod.POST)
+    @RequestMapping(value = "/deleteEmployee", method = RequestMethod.POST)
     public Employee deleteEmployee(Employee e) {
 		return null;
 	}

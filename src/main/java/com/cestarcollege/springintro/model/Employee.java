@@ -13,7 +13,7 @@ public class Employee {
 	private String name;
 	private String lastName;
 	private boolean active;
-	
+	//default constructor
 	public Employee() {
 		super();
 	}

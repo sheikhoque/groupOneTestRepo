@@ -30,5 +30,10 @@ public class EmployeeController {
     public Employee getEmployee(Employee e) {
 		return employeeService.save(e);
 	}
+    
+    @RequestMapping(value = "/delete", method = RequestMethod.POST)
+    public Employee deleteEmployee(Employee e) {
+		return null;
+	}
 
 }
